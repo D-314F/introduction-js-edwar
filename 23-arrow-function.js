@@ -107,7 +107,43 @@ const result6 = shoppingCart.filter((product) => product.price < 600);
 console.log(result6);
 
 
+// ===============================================
 
 
+// function greet(userName){
+//     console.log('Hello ${userName}');
+// }
 
+// console.log(greet("Fabian"))
 
+// Convertir a arrow function
+
+const greet2 = userName => `Hello ${userName}`
+console.log(greet2("Fabian Guzman Villegas"));
+
+// ===============================================
+
+// const boost = num => num * num;
+// console.log(boost(5));
+
+const boost2 = num => Math.pow(2, num);
+console.log(boost2(6));
+
+// ================================
+
+// Arrow function con retorno explícito 
+
+// Se usa cuando el cuerpo de una funcion tiene llaves {}
+
+const add10 = (num4, num5) => {const result7 = num4 + num5;
+    return result7;
+ }
+
+ console.log(add10(15, 7));
+
+//================================================================
+// Retorno implicito, cuando la función no tiene llaves realiza el retorno implicitamente
+
+const add11 = (num6, num7) => num6 + num7;
+
+console.log(add11(4, 6));
