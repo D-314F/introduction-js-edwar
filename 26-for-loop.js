@@ -20,18 +20,18 @@ const shoppingCart = [
 //  console.log(product);
 // });
 
-// // Acceder a un elemento especifico
+// Acceder a un elemento especifico
 // shoppingCart.forEach(function(product){
 //  console.log(product.price);
 // }); 
 
-// // Acceder a un elemento especifico
+// Acceder a un elemento especifico
 
 // shoppingCart.forEach(function(product){
 //  console.log(product.productName);
 // });
 
-// // Acceder a un elemento especifico
+// Acceder a un elemento especifico
 
 // shoppingCart.forEach(function(product){
 //  console.log(product.color);
@@ -52,3 +52,11 @@ shoppingCart.forEach((product) => console.log (product.productName));
 
 // acceder a un elemento especifico
 shoppingCart.forEach((product) => console.log(product.color));    
+// ===========================
+
+// Recorer un arreglo por cada elemento 
+//shoppingCart.forEach((product) => console.log(product));
+
+const array = shoppingCart.map ( product => `El nombre del producto es ${product.productName} - ${product.price}`)
+
+console.log(array);
