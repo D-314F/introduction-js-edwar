@@ -1,0 +1,36 @@
+{   
+    "__comment1":"La syntaxis json np acepta comentarios",
+
+    "__comment2":"JSON hace obligatorio usar llaves dobles",
+    
+    "employees": [
+        {
+            "id": 1,
+            "user": "Fabian Guzman Villegas",
+            "job": "Web programmer"
+        },
+         {
+            "id": 2,
+            "user": "Maycol",
+            "job": "UX / UI"
+        },
+           {
+            "id": 3,
+            "user": "James",
+            "job": "Marketing"
+        },
+           {
+            "id": 4,
+            "user": "Alex",
+            "job": "Sever"
+        },
+         {
+            "id": 5,
+            "user": "Laura",
+            "job": "Frontend"
+        }
+
+    ]
+
+
+}
